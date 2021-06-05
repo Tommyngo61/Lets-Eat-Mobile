@@ -15,7 +15,7 @@ Mobile version of the Let's Eat App
 <p>To run this project in terminal while in the project directory type "npm start"
 This should open up a local host server on your computer that looks something like this</p>
 
-<img  src="Lets-Eat-Mobile\images\localhost.png" alt="Localhost Screen Shot"/>
+<img  src="images\localhost.png" alt="Localhost Screen Shot"/>
 
 <p>From here you should be able to run the app and display on either a simulator or a device like your phone
 Look below for information on how to run the app with the following options</p>
