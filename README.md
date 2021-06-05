@@ -9,7 +9,7 @@ Mobile version of the Let's Eat App
 - Node js
 - React native
 - Expo
-  (You may have to type npm install and/or npm install -g expo-cli see [React Native] (https://reactnative.dev/docs/environment-setup) for more information).
+  (You may have to type npm install and/or npm install -g expo-cli see [React Native](https://reactnative.dev/docs/environment-setup) for more information).
 
 <p>To run this project in terminal while in the project directory type "npm start"
 This should open up a local host server on your computer that looks something like this</p>
