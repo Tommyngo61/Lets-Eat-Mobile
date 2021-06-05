@@ -2,19 +2,24 @@
 
 Mobile version of the Let's Eat App
 
-# Running This Project
+## Getting Started
 
-(You may have to type npm install and/or npm install -g expo-cli see https://reactnative.dev/docs/environment-setup for more information).
+## Dependencies
+
+- Node js
+- React native
+- Expo
+  (You may have to type npm install and/or npm install -g expo-cli see https://reactnative.dev/docs/environment-setup for more information).
 
 <p>To run this project in terminal while in the project directory type "npm start"
-This should open up a local host server on your computer that looks something like this
+This should open up a local host server on your computer that looks something like this</p>
 
-![Alt text] (Lets-Eat-Mobile\images\localhost.png)
+[![Localhost Screen Shot] (Lets-Eat-Mobile\images\localhost.png)]
 
-From here you should be able to run the app and display on either a simulator or a device like your phone
+<p>From here you should be able to run the app and display on either a simulator or a device like your phone
 Look below for information on how to run the app with the following options</p>
 
-# Running Expo On IOS (These are instructions for Expo version 4.5.2)
+## Running Expo On IOS (These are instructions for Expo version 4.5.2)
 
 **There are two ways to run this app through Expo on IOS.**
 
@@ -34,7 +39,7 @@ Look below for information on how to run the app with the following options</p>
    4. It will prompt you to sign in with expo on your terminal
    5. After signing in, you will get an email > Click that email on your IOS device and open with Expo go
 
-# Running Expo on Android (These are instructions for Expo version 4.5.2)
+## Running Expo on Android (These are instructions for Expo version 4.5.2)
 
 **There are two ways to run this app through Expo on Android**
 
