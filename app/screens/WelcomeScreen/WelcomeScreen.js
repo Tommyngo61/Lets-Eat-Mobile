@@ -8,7 +8,7 @@ import {
   View,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import colors from "../config/colors";
+import colors from "../../config/colors";
 
 export default function WelcomePage({ navigation }) {
   const handlePress = () => {
@@ -17,18 +17,23 @@ export default function WelcomePage({ navigation }) {
   return (
     <ImageBackground
       style={styles.background}
-      source={require("../assets/background.jpg")}
+      source={require("../../assets/background.jpg")}
     >
       <View style={styles.logoContainer}>
         <Image
           style={styles.logo}
-          source={require("../assets/logo-example.png")}
+          source={require("../../assets/logo-example.png")}
         />
         <Text>Let's Eat</Text>
       </View>
       <Button
         title="Go to Profile"
         onPress={() => navigation.navigate("Profile", { name: "Profile" })}
+        style={styles.loginButton}
+      ></Button>
+      <Button
+        title="Go to Settings"
+        onPress={() => navigation.navigate("Settings", { name: "SettingPage" })}
         style={styles.loginButton}
       ></Button>
       <Button title="Register" style={styles.registerButton}></Button>

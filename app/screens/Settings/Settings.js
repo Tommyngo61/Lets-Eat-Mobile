@@ -1,8 +1,8 @@
 import React from "react";
 import { Image, StyleSheet, View } from "react-native";
-import colors from "../config/colors";
+import colors from "../../config/colors";
 
-function ViewImageScreen({ navigation }) {
+function Settings({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.closeIcon}></View>
@@ -10,7 +10,7 @@ function ViewImageScreen({ navigation }) {
       <Image
         resizeMode="contain"
         style={styles.image}
-        source={require("../assets/chair.jpg")}
+        source={require("../../assets/chair.jpg")}
       />
     </View>
   );
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
     height: "100%",
   },
 });
-export default ViewImageScreen;
+export default Settings;
